@@ -1,4 +1,4 @@
-# FinalProject
+# Final Project - Quizlet Solver
 This is Version 1.0 of our Advanced C# Final Project. This is Quizlet solver meant to solve the standard SQL quizzes that we had to tediously complete in our Database &amp; SQL class. This application allows users to enter an SQL-related question and our algorithm searches Quizlet to see what it can find.
 
 A few things:
