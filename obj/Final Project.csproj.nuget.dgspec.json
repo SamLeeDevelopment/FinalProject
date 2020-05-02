@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Advanced C#\\Final Project\\Final Project.csproj": {}
+    "/Users/dougchervek/Projects/FinalProject2/Final Project.csproj": {}
   },
   "projects": {
-    "D:\\Advanced C#\\Final Project\\Final Project.csproj": {
+    "/Users/dougchervek/Projects/FinalProject2/Final Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Advanced C#\\Final Project\\Final Project.csproj",
+        "projectUniqueName": "/Users/dougchervek/Projects/FinalProject2/Final Project.csproj",
         "projectName": "Final Project",
-        "projectPath": "D:\\Advanced C#\\Final Project\\Final Project.csproj",
-        "packagesPath": "C:\\Users\\samle\\.nuget\\packages\\",
-        "outputPath": "D:\\Advanced C#\\Final Project\\obj\\",
+        "projectPath": "/Users/dougchervek/Projects/FinalProject2/Final Project.csproj",
+        "packagesPath": "/Users/dougchervek/.nuget/packages/",
+        "outputPath": "/Users/dougchervek/Projects/FinalProject2/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\samle\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/dougchervek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/dougchervek/Projects/Quizlet-Answer-Search/QuizletAnswerFinder/QuizletAnswerFinder.csproj": {
+                "projectPath": "/Users/dougchervek/Projects/Quizlet-Answer-Search/QuizletAnswerFinder/QuizletAnswerFinder.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -74,6 +75,10 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -105,7 +110,67 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dougchervek/Projects/Quizlet-Answer-Search/QuizletAnswerFinder/QuizletAnswerFinder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dougchervek/Projects/Quizlet-Answer-Search/QuizletAnswerFinder/QuizletAnswerFinder.csproj",
+        "projectName": "QuizletAnswerFinder",
+        "projectPath": "/Users/dougchervek/Projects/Quizlet-Answer-Search/QuizletAnswerFinder/QuizletAnswerFinder.csproj",
+        "packagesPath": "/Users/dougchervek/.nuget/packages/",
+        "outputPath": "/Users/dougchervek/Projects/Quizlet-Answer-Search/QuizletAnswerFinder/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/dougchervek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.23, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }
