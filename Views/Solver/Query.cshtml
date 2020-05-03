@@ -18,6 +18,16 @@ else
 <h6>Query</h6>
 <p>@Model.Question</p>
 <h6>Here's what we found</h6>
+@{
+    if (Model.IsMultipleAnswer)
+    {
+        <h6>Question was not found. Here are some suggestions:</h6>
+    }
+}
+
+
+
+
 <p>
-    @Model.Answer
+    @Html.Raw(Model.Answer)
 </p>
